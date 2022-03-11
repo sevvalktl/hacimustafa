@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+.container{
+    width: 66%;
+}
+/* ------------------------ nav-tab --------------------- */
+.nav{
+    height: 30px;
+}
+.iletisim{
+    background-color: #f2ece3;
+    font-size: 14px;
+    padding: 2px;
+}
+.ilet{
+    color: #bf8d2b;
+}
+.ilet:hover{
+    color: #bf8d2b;
+}
+.yazi2{
+    position: relative;
+    left: 15%;
+    text-align: center;
+    color: #bf8d2b;
+}
+.yazi3{
+    position: relative;
+    left: 20%;
+    padding-top: 0.7%;
+    color: #bf8d2b;
+}
+
+/* ------------------------ navbar logo --------------------- */
+.navbar{
+    height: 100px;
+    background-color: white;
+}
+.ara{
+    border-radius: 30px;
+}
+.itemler{
+    color: #bf8d2b;
+}
+/* ------------------------ navbar --------------------- */
+.secenekler{
+    height: 40px;
+    background: #bf8d2b;
+    
+}
+
+.secenek{
+    
+    color: white;
+    font-size: 14px;
+}
+
+.box1{
+    display: flex;
+    float: inline-start;
+    width: 173.33px;
+    height: 210px;
+    background-image: url("https://www.hacimustafa.com/Data/Kategori/24.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box2{
+    display: flex;
+    float: right;
+    width: 173.33px;
+    height: 210px;
+    background-image: url("https://www.hacimustafa.com/Data/Kategori/33.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    display: flex;
+    float: right;
+    width: 173.33px;
+    height: 210px;
+    background-image: url("https://www.hacimustafa.com/Data/Kategori/40.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    display: flex;
+    float: right;
+    width: 173.33px;
+    height: 210px;
+    background-image: url("https://www.hacimustafa.com/Data/Kategori/23.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box5{
+    display: flex;
+    float: right;
+    width: 173.33px;
+    height: 210px;
+    background-image: url("https://www.hacimustafa.com/Data/Kategori/41.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box6{
+    display: flex;
+    float: right;
+    width: 173.33px;
+    height: 210px;
+    background-image: url("https://www.hacimustafa.com/Data/Kategori/34.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box7{
+    display: flex;
+    float: right;
+    width: 173.33px;
+    height: 210px;
+    background-image: url("https://www.hacimustafa.com/Data/Kategori/51.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box8{
+    display: flex;
+    float: inline-end;
+    width: 173.33px;
+    height: 210px;
+    background-image: url("https://www.hacimustafa.com/Data/Kategori/54.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.secimler{
+    height: 40px !important;
+    justify-content: center;
+
+}
+.dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown-item:hover{
+    background-color: white;
+    color: #bf8d2b;
+}
+.secenek:hover {
+    background-color: white;
+    color:#bf8d2b;
+}
+/* ------------------------ yuvarlak resimler --------------------- */
+
+.yuvarlak{
+    margin-top: 1%;
+    text-align: center;
+}
+.yuvarlak a{
+    text-decoration: none;
+    color: black;
+}
+.yuvarlak a img{
+    width: 75px;
+}
+.yuvarlak a p{
+    font-size: 12px;
+    text-align: center;
+}
+.urun{
+    height: auto;
+    width: 8%;
+}
+/* ------------------------ lokum liste --------------------- */
+.item2{
+    margin-left: 2%;
+}
+.caro{
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+}
+.caro-item{
+    border-color: rgb(197, 193, 193);
+}
+.aciklama{
+    text-decoration: none;
+    color: black;
+}
+.aciklama:hover{
+    color: black;
+}
+.urun-aciklama{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    padding-top: 3%;
+    padding-left: 3%;
+    border-style: solid;
+    border-radius: 7px;
+    border: rgb(29, 23, 23);
+    height: 97px;
+    width: 280px;
+}
+.fiyat h3{
+    color: #bf8d2b;
+}
+.ekle{
+    background-color: white;
+    border-radius: 7px;
+    border-color: rgb(197, 193, 193);
+    color: #bf8d2b;
+    font-size: 30px;
+    width: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------ bülten --------------------- */
+.bulten{
+    
+    background-image: url("https://www.hacimustafa.com/Data/EditorFiles/hacimustafa/e-bulten.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 210px;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+.yazilar{
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.form-control{
+    border-radius: 30px;
+}
+.yazilar h2{
+    color: white;
+}
+.yazilar h6{
+    color: black;
+}
+.bulten .btn{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #bf8d2b;
+    border-radius: 30px;
+    border-color: #bf8d2b;
+    padding: 20px;
+}
+/* ------------------------ en alt --------------------- */
+footer{
+    background-color: #f7f7f7;
+    
+}
+.kategori ul li, .onemli ul li, .kurumsal ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 2% 0;
+}
+.sosyal ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 6% 0;
+}
+.sosyal ul li a{
+    padding-right: 4%;
+}
+.list{
+    padding-top: 4%;
+    justify-content: center;
+}
+.kategori ul li a, .onemli ul li a, .kurumsal ul li a, .sosyal ul li a{
+    text-decoration: none;
+    color: #252525;
+}
+.kategori ul li a:hover, .onemli ul li a:hover, .kurumsal ul li a:hover, .sosyal ul li a:hover{
+    color: #bf8d2b;
+}
+.ikon{
+    color: #bf8d2b;
+}
+.onemli, .kurumsal, .sosyal{
+    padding-left: 8%;
+}
+.ucd{
+    width: 120px;
+}
+.e-adam{
+    width: 100px;
+}
+.kartlar{
+    list-style: none;
+    justify-content: center;
+}
+.sabit-ikon{
+    color: #bf8d2b;
+}
+.sabit{
+    position: fixed;
+    top: 80%;
+    padding-left: 2%;
+}
